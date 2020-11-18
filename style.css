@@ -1,5 +1,30 @@
-nav_bar {
+.nav_bar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: greenyellow;
+    overflow: hidden;
 }
+
+.nav_bar li {
+    float: left;
+    border-right: 1px solid black;
+}
+
+.nav_bar li a {
+    display: block;
+    padding: 5px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav_bar li a:active {
+    background-color: #e45e7b;
+    color: black;
+  }
+
+  .nav_bar li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
